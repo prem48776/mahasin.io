@@ -1,0 +1,177 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.div1{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.div2{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div3{
+    width: 25%;
+    height:75%;
+    background: linear-gradient(to top,rgb(230, 196, 6),rgb(243, 56, 9));
+    outline: none;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 10px 10px 10px 0 gray;
+    text-transform: uppercase;
+    overflow: hidden;
+    position: relative;
+    
+}
+.font,.back {
+    width: 100%;
+    height: 100%;
+   position: absolute;
+   transition-duration: 1s;
+    
+}
+.back{
+    
+    color: whitesmoke;
+    left:400px;
+}
+
+h2{
+    text-align: center;
+    margin: 15px;
+    color:whitesmoke;
+    font-family:  'Arial Narrow Bold';
+}
+img{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    border: none;
+    display: block;
+    margin: 0px auto;
+   
+}
+
+form{
+    width: 100%;
+    height: auto;
+}
+.input-group{
+    width: 100%;
+    height: auto;
+    margin: 8px 30px;
+    text-align: left;
+    color:rgb(25, 12, 31);
+    font-family: monospace;
+    font-size: 16px;
+}
+.input-group input{
+    width: 80%;
+    padding: 7px 0px;
+    margin: 8px 0px;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+}
+::placeholder{
+    text-transform: uppercase;
+}
+span{
+    margin: 0px 35px;
+    width: 100%;
+    color: rgb(31, 30, 30);
+    color: whitesmoke;
+}
+input{
+    margin-right:30px;
+}
+.btn1{
+    width: 60%;
+    margin: 0px auto;
+    display: block;
+    padding: 7px 0px;
+    background-color: rgb(6, 134, 6);
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: whitesmoke;
+    text-transform: uppercase;
+
+}
+.reg{
+    margin-top: 20px;
+}
+
+.btnbtn{
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.btn0{
+    width: 70%;
+    height: 100%;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 4px 5px 10px 0 rgb(105, 68, 76);
+}
+  .btn01{
+    width:50% ;
+    height: 100%;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    background:linear-gradient(to right,rgb(238, 13, 43),rgb(202, 150, 5));
+    text-transform: uppercase;
+     color: whitesmoke;
+     outline: none;
+    
+ }
+  
+
+ .btn02{
+    width:50% ;
+    height: 100%;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: whitesmoke;
+    transition: 1s;
+    outline: none;
+
+   
+}
+
+
+
+
+
+
+@media screen and (max-width:560px){
+    
+    .div3{
+        width: 90%;
+        height: 500px;
+        justify-content: center;
+        display: flex;
+        align-self: flex-start;
+    }
+}
